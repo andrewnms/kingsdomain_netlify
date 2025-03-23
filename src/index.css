@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cyber-black text-white;
+    font-family: "Space Mono", monospace;
+  }
+}
+
+@layer components {
+  .cyber-button {
+    @apply relative px-8 py-4 bg-transparent border-2 border-cyber-secondary 
+           hover:bg-cyber-secondary/20 transition-colors duration-300 animate-glow
+           before:content-[''] before:absolute before:top-0 before:left-0 
+           before:w-2 before:h-2 before:bg-cyber-secondary
+           after:content-[''] after:absolute after:bottom-0 after:right-0 
+           after:w-2 after:h-2 after:bg-cyber-secondary;
+  }
+
+  .cyber-heading {
+    @apply text-4xl md:text-6xl font-bold text-cyber-accent mb-8
+           hover:text-cyber-pink hover:animate-glitch cursor-default
+           transition-colors duration-300 animate-neon;
+  }
+
+  .section-container {
+    @apply fixed inset-0 w-full h-full overflow-auto bg-cyber-black/95
+           opacity-0 pointer-events-none transition-opacity duration-300;
+  }
+
+  .section-container.active {
+    @apply opacity-100 pointer-events-auto animate-reveal;
+  }
+
+  .cyber-grid {
+    @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-8;
+  }
+
+  .cyber-card {
+    @apply bg-cyber-black/50 p-6 border-2 border-cyber-tertiary 
+           hover:border-cyber-secondary transition-colors duration-300 
+           backdrop-blur-sm animate-glow;
+  }
+}
