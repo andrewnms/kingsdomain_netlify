@@ -18,12 +18,13 @@ export const HomeSection = () => {
 
           <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 px-4 md:px-8">
             <div className="flex-1 max-w-md bg-cyber-black/50 p-8 border-2 border-cyber-blue hover:border-cyber-purple transition-colors duration-300 backdrop-blur-sm">
-              <h3 className="text-cyber-blue text-xl mb-4">PRIZE POOL</h3>
+              <h3 className="text-cyber-blue text-xl mb-4">PRIZES FOR EACH OF THE TOP 3 TEAMS</h3>
               <ul className="space-y-2">
                 <li>💰 $2,000 in Google Cloud credits</li>
-                <li>🚀 Google Manila HQ Tour</li>
-                <li>🌊 GOAB Pitch Opportunity</li>
-                <li>✨ [Maya prizes to be added here]</li>
+                <li>🌊 2 Tickets to 2025 GOAB Conference</li>
+                <li>🗣️ GOAB Pitching in Front of 50+ Investors</li>
+                <li>💵 ₱30k Maya Cash to Cover Travel to GOAB</li>
+                <li>🚀 Google Manila HQ Lunch & Private Tour</li>
               </ul>
             </div>
 
