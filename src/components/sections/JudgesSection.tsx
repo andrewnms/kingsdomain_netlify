@@ -24,6 +24,11 @@ export const JudgesSection = () => {
                 title: "Director, Launch Garage",
                 subtitle: "CEO, Proudcloud",
                 bio: "Startup ecosystem builder and tech venture specialist"
+              },
+              {
+                name: "Loys Talip",
+                title: "Customer Engineer, Google",
+                bio: "Technical expert specializing in Google Cloud solutions and architecture"
               }
             ].map((judge, index) => (
               <div 
