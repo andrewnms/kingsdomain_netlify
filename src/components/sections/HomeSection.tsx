@@ -14,6 +14,9 @@ export const HomeSection = () => {
               Three elite institutions. One ultimate challenge. Your mission: 
               Create something amazing. The future begins here.
             </p>
+            <p className="text-lg text-cyber-accent mt-4 font-bold">
+              Want to compete? Email Sherwin_Yaun@dlsu.edu.ph
+            </p>
           </div>
 
           <div className="flex flex-col md:flex-row justify-center items-stretch gap-8 px-4 md:px-8">
@@ -21,8 +24,7 @@ export const HomeSection = () => {
               <h3 className="text-cyber-blue text-xl mb-4">PRIZES FOR EACH OF THE TOP 3 TEAMS</h3>
               <ul className="space-y-2">
                 <li>💰 $2,000 in Google Cloud credits</li>
-                <li>🌊 2 Tickets to 2025 GOAB Conference</li>
-                <li>🗣️ GOAB Pitching in Front of 50+ Investors</li>
+                <li>🌊 2 tickets to attend and pitch in front of local & international investors at 2025 Geeks On A Beach conference.</li>
                 <li>💵 ₱30k Maya Cash to Cover Travel to GOAB</li>
                 <li>🚀 Google Manila HQ Lunch & Private Tour</li>
               </ul>

@@ -19,12 +19,7 @@ export const JudgesSection = () => {
                 subtitle: "Cofounder, Symph",
                 bio: "Tech entrepreneur focused on healthtech and innovation"
               },
-              {
-                name: "Jay Fajardo",
-                title: "Director, Launch Garage",
-                subtitle: "CEO, Proudcloud",
-                bio: "Startup ecosystem builder and tech venture specialist"
-              },
+
               {
                 name: "Loys Talip",
                 title: "Customer Engineer, Google",
