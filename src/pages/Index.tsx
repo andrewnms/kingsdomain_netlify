@@ -4,6 +4,7 @@ import { HomeSection } from '../components/sections/HomeSection';
 import { RulesSection } from '../components/sections/RulesSection';
 import { ScheduleSection } from '../components/sections/ScheduleSection';
 import { JudgesSection } from '../components/sections/JudgesSection';
+import { WinnersSection } from '../components/sections/WinnersSection';
 import { SponsorSection } from '../components/sections/SponsorSection';
 
 const Index = () => {
@@ -30,6 +31,10 @@ const Index = () => {
       
       <div className={`section-container ${activeSection === 'judges' ? 'active' : ''}`}>
         <JudgesSection />
+      </div>
+      
+      <div className={`section-container ${activeSection === 'winners' ? 'active' : ''}`}>
+        <WinnersSection />
       </div>
 
       <div className={`section-container ${activeSection === 'sponsors' ? 'active' : ''}`}>

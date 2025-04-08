@@ -9,6 +9,12 @@ export const JudgesSection = () => {
             <h3 className="text-2xl text-cyber-secondary mb-8">JUDGES</h3>
             {[
               {
+                name: "Carlo Delantar",
+                title: "Founding Partner",
+                subtitle: "Gobi Core",
+                bio: "Venture capital investor backing innovative startups across Southeast Asia"
+              },
+              {
                 name: "Mitch Padua",
                 title: "Chief Product Officer, Maya",
                 bio: "Digital product innovator with experience in fintech solutions"
@@ -19,7 +25,6 @@ export const JudgesSection = () => {
                 subtitle: "Cofounder, Symph",
                 bio: "Tech entrepreneur focused on healthtech and innovation"
               },
-
               {
                 name: "Loys Talip",
                 title: "Customer Engineer, Google",

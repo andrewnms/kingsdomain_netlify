@@ -43,4 +43,11 @@
            hover:border-cyber-secondary transition-colors duration-300 
            backdrop-blur-sm animate-glow;
   }
+  
+  .cyber-article {
+    @apply prose prose-invert prose-cyber max-w-none
+           prose-headings:text-cyber-accent prose-p:text-lg
+           prose-a:text-cyber-secondary prose-a:no-underline
+           prose-img:border-2 prose-img:border-cyber-tertiary;
+  }
 }
