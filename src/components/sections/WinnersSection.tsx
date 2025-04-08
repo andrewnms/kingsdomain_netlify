@@ -45,7 +45,6 @@ export const WinnersSection = () => {
               website: "quasar.com.ph", 
               url: "https://quasar.com.ph",
               description: "Transforming loan processing through automation, dramatically reducing approval times and democratizing access to financial services."
-=======
             }
           ].map((winner, index) => (
             <div 
